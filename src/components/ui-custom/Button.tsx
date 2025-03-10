@@ -25,11 +25,11 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     const baseStyles = "relative inline-flex items-center justify-center rounded-md text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed";
     
     const variants = {
-      primary: "bg-htech-800 text-white hover:bg-htech-900 active:bg-htech-950 focus-visible:ring-htech-800",
-      secondary: "bg-htech-100 text-htech-900 hover:bg-htech-200 active:bg-htech-300 focus-visible:ring-htech-200",
-      outline: "border border-htech-200 bg-transparent text-htech-900 hover:bg-htech-50 active:bg-htech-100 focus-visible:ring-htech-100",
-      ghost: "bg-transparent text-htech-900 hover:bg-htech-50 active:bg-htech-100 focus-visible:ring-htech-100",
-      link: "bg-transparent text-htech-800 underline-offset-4 hover:underline p-0 h-auto focus-visible:ring-0 hover:text-htech-950",
+      primary: "bg-blue-600 text-white hover:bg-blue-700 active:bg-blue-800 focus-visible:ring-blue-500",
+      secondary: "bg-blue-200 text-blue-900 hover:bg-blue-300 active:bg-blue-400 focus-visible:ring-blue-300",
+      outline: "border border-blue-700 bg-transparent text-blue-300 hover:bg-blue-900/30 active:bg-blue-800/40 focus-visible:ring-blue-700",
+      ghost: "bg-transparent text-blue-300 hover:bg-blue-900/30 active:bg-blue-800/40 focus-visible:ring-blue-700",
+      link: "bg-transparent text-blue-400 underline-offset-4 hover:underline p-0 h-auto focus-visible:ring-0 hover:text-blue-300",
     };
     
     const sizes = {
